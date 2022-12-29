@@ -37,7 +37,7 @@ dependencies:
   fluttertoast: ^8.0.9
   connectivity_plus: ^2.3.5
   http: ^0.13.4
-  enx_uikit_flutter: ^1.0.7
+  enx_uikit_flutter: ^1.2.0
   get: ^4.6.5
 
 
