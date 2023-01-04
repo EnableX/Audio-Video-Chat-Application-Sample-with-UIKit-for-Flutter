@@ -51,7 +51,7 @@ class VideoCall extends StatelessWidget{
               fontSize: 16.0
           );
           Get.back();
-        },   ),),
+        }, embedUrl: '',   ),),
     );
   }
   

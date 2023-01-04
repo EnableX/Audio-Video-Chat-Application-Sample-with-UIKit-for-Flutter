@@ -53,10 +53,10 @@ void showCustomDialog(BuildContext context, String title, String message,
 
         ),
         actions: <Widget>[
-          FlatButton(
+          ElevatedButton(
+            onPressed: okPressed(),
             child:
              const Text("OK"),
-            onPressed: okPressed(),
           ),
         ],
       );

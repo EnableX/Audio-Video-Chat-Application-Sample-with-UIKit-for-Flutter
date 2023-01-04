@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 32
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -40,6 +40,7 @@ android {
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
+
     }
 
     defaultConfig {
@@ -48,16 +49,20 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion 24
-        targetSdkVersion flutter.targetSdkVersion
+        targetSdkVersion 32
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
     buildTypes {
         release {
+            minifyEnabled false //keeps unused methods instead of removing them
+            shrinkResources false //to shrink files
+
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+
         }
     }
 }
