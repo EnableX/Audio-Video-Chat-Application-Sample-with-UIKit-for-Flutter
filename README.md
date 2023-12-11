@@ -1,35 +1,16 @@
-# EnableX Video Calling Flutter app with UIKit
+# EnableX Video Calling Flutter App with UIKit: Try Real-Time Audio and Video Features on Flutter
 
-This is a sample video calling app that uses EnableX infrastructure, APIs and Toolkit. It allows developers to try out real-time video and audio features on Flutter.
+TDevelop a Flutter app seamlessly integrated with UIKit, harnessing the power of EnableX infrastructure, APIs, and Toolkit for exceptional real-time video and audio experiences. With this sample app, developers can explore and implement cutting-edge video calling functionalities while optimizing SEO keywords.
 
-This sample apps allows you to easily:
-* Create a Virtual Room with REST video API
-* Gain the Room Credentials (i.e. Room ID)
-* Join Virtual Room either as moderator or partipicant securely
+Unlock the potential of this app to:
 
-You will also enjoy the following features:
-## For Participants and Moderators
-* Mute Self-Audio
-* Mute Self-Video
-* Switch Camera
-* Switch Audio Device
-* Group and Private Chat
+1. Establish Virtual Rooms: Utilize REST video APIs to effortlessly generate virtual rooms, providing a platform for seamless communication.
 
-## Participant List
-* Switch Layout
-* Disconnect Call
-* Raise Hand to Join the Floor (only for webinar mode)
+2. Secure Room Credentials: Acquire room credentials, including the unique Room ID, ensuring robust security and privacy for your users.
 
-## For Moderators only
-* Record Session
-* Mute Room
-* Mute Participant-Audio
-* Mute Participant-Video
-* Drop Participant from room
-* Allow/deny Participant’s Raised Hand Request (only for webinar mode)
-* Revoke Allowed Raised Hand Request (only for webinar mode)
+3. Join Virtual Rooms: Seamlessly participate in virtual rooms either as a moderator or participant, guaranteeing a secure and immersive video calling experience.
 
-> For more information, pls visit our Developer Center https://www.enablex.io/developer/video/solutions/video-ui-kit/ios-video-ui-kit/
+Experience the future of video communication with this Flutter app, powered by EnableX, and optimize your SEO with keywords such as Flutter video calling, EnableX infrastructure, real-time video, audio features, and more.
 
 ## 1. Get started
 
