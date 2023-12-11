@@ -70,23 +70,19 @@ If you would like to test the quality of EnableX video call before setting up yo
 ### 1.2 Configure Flutter Client
 
 * Open the App
-* Go to VCXConstant.swift, it's reads:
+* Go to constants.dart, it's reads:
 
 ``` 
  /* To try the App with Enablex Hosted Service you need to set the kTry = true
     When you setup your own Application Service, set kTry = false */
     
-    let kTry = true
+   const String urlBase =  'https://demo.enablex.io/';
+   /* To try the app with Enablex hosted service you need to set the kTry = true */
+    const bool kTry = true;
+     /*Use enablec portal to create your app and get these following credentials*/
+     const String kAppId = "app-id";
+     const  String kAppkey = "app-key";
 
- /* Your Web Service Host URL. Keet the defined host when kTry = true */
-    
-    let kBasedURL = "https://demo.enablex.io/"
-     
- /* Your Application Credential required to try with EnableX Hosted Service
-    When you setup your own Application Service, remove these */
-    
-    let kAppId    = ""
-    let kAppkey   = ""
  
  ```
 
