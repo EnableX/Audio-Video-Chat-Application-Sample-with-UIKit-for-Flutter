@@ -49,5 +49,7 @@
 	<string>Use Microphone</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Use Camera</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 </dict>
 </plist>
