@@ -94,13 +94,8 @@ class LoginScreen extends StatelessWidget{
                   DefaultButton(
                   text: 'Create Room',
                   press: () async {
-
-
                       if (_formKey.currentState!.validate()) {
-
                         _loginController.apiLogin();
-
-
                     } else {
                       Get.snackbar(
                           "Failed", "Enter Name",

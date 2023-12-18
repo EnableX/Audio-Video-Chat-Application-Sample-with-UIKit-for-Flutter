@@ -19,16 +19,16 @@ class DefaultButton extends StatelessWidget {
       height: 50,
       child: ElevatedButton(
         onPressed: press,
+        clipBehavior: Clip.hardEdge,
         child: Text(
           text,
           style: const TextStyle(
               fontSize: 14,
-              color: Colors.white,
+              color: Colors.black,
               fontFamily: "Poppins-Regular",
               fontWeight: FontWeight.normal
           ),
         ),
-        clipBehavior: Clip.hardEdge,
       ),
     );
   }
