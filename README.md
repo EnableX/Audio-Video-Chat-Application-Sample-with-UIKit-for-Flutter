@@ -26,13 +26,13 @@ You would need API Credentials to access EnableX platform. To do that, simply cr
 
 #### 1.1.2 Requirement
 
-* Android Studio
-* Language: Either Kotlin or java
+* Android Studio / Vc Code
+* Language: Flutter/Dart
 
 
 #### 1.1.3 Sample Flutter Client
 
-* Clone or download this Repository : https://github.com/EnableX/Audio-Video-Chat-Application-Sample-with--UIKit-for-IOS.git
+* Clone or download this Repository : https://github.com/EnableX/Audio-Video-Chat-Application-Sample-with-UIKit-for-Flutter.git
 
 #### 1.1.4 Application Server
 
