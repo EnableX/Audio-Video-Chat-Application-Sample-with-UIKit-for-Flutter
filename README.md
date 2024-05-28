@@ -1,8 +1,8 @@
-# EnableX Video Calling Flutter App with UIKit: Try Real-Time Audio and Video Features on Flutter
+﻿# EnableX Video Calling Flutter App with UIKit: Try Real-Time Audio and Video Features on Flutter
 
-TDevelop a Flutter app seamlessly integrated with UIKit, harnessing the power of EnableX infrastructure, APIs, and Toolkit for exceptional real-time video and audio experiences. With this sample app, developers can explore and implement cutting-edge video calling functionalities while optimizing SEO keywords.
+Develop a Flutter web/mobile app seamlessly integrated with UIKit, harnessing the power of EnableX infrastructure, APIs, and Toolkit for exceptional real-time video and audio experiences. With this sample app, developers can explore and implement cutting-edge video calling functionalities.
 
-Unlock the potential of this app to:
+Unlock the potential of this Flutter web/mobile app to:
 
 1. Establish Virtual Rooms: Utilize REST video APIs to effortlessly generate virtual rooms, providing a platform for seamless communication.
 
@@ -10,7 +10,7 @@ Unlock the potential of this app to:
 
 3. Join Virtual Rooms: Seamlessly participate in virtual rooms either as a moderator or participant, guaranteeing a secure and immersive video calling experience.
 
-Experience the future of video communication with this Flutter app, powered by EnableX, and optimize your SEO with keywords such as Flutter video calling, EnableX infrastructure, real-time video, audio features, and more.
+Experience the future of video communication with this Flutter app, powered by EnableX, such as Flutter web/mobile video calling, EnableX infrastructure, real-time video, audio features, and more.
 
 ## 1. Get started
 
@@ -36,7 +36,7 @@ You would need API Credentials to access EnableX platform. To do that, simply cr
 
 #### 1.1.4 Application Server
 
-An Application Server is required for your Flutter App to communicate with EnableX. We have different variants of Application Server Sample Code. Pick the one in your preferred language and follow instructions given in README.md file of respective Repository.
+An Application Server is required for your Flutter web/mobile App to communicate with EnableX. We have different variants of Application Server Sample Code. Pick the one in your preferred language and follow instructions given in README.md file of respective Repository.
 
 * NodeJS: https://github.com/EnableX/Video-Conferencing-Open-Source-Web-Application-Sample.git
 * PHP: https://github.com/EnableX/Group-Video-Call-Conferencing-Sample-Application-in-PHP
@@ -44,9 +44,9 @@ An Application Server is required for your Flutter App to communicate with Enabl
 Note the following:
 •	You need to use App ID and App Key to run this Service.
 •	Your Flutter Client EndPoint needs to connect to this Service to create Virtual Room and Create Token to join the session.
-•	Application Server is created using [EnableX Server API](https://www.enablex.io/developer/video-api/server-api) while Rest API Service helps in provisioning, session access and post-session reporting.
+•	Application Server is created using [EnableX Server API] (https://www.enablex.io/developer/video-api/server-api) while Rest API Service helps in provisioning, session access and post-session reporting.
 
-If you would like to test the quality of EnableX video call before setting up your own application server,  you can run the test on our pre-configured environment. Refer to point 2 for more details on this.
+If you would like to test the quality of EnableX video call before setting up your own application server, you can run the test on our pre-configured environment. Refer to point 2 for more details on this.
 
 ### 1.2 Configure Flutter Client
 
@@ -77,7 +77,7 @@ If you would like to test the quality of EnableX video call before setting up yo
 * Share Room ID with others to join the Virtual Room with you.
 
 Note:
-* This Sample Application created a Virtual Room with limited Participant and 1 Moderator only.
+* This Sample flutter Application created a Virtual Room with limited Participant and 1 Moderator only.
 * In case of emulator/simulator your local stream will not create. It will create only on real device.
 
 ## 2. Testing Environment
@@ -94,7 +94,7 @@ Once you have tested it, it is important that you set up your own Application Se
 
 ## 3. Flutter UIKit
 
-This Sample Application uses EnableX Flutter UIKit to communicate with EnableX Servers to initiate, manage Real-Time Communications and create a beautify & customized Audio/Video call UI. Please update your Application with latest version of EnableX Flutter UIKit as and when a new release is available.
+This Sample Application uses EnableX Flutter UIKit to communicate with EnableX Servers to initiate, manage Real-Time Video Communications and create a beautify & customized Audio/Video call UI. Please update your Application with latest version of EnableX Flutter UIKit as and when a new release is available.
 
 ![single](./single.png)
 
@@ -162,3 +162,4 @@ EnableX provides a library of Documentations, How-to Guides and Sample Codes to 
 > Go to https://developer.enablex.io/.
 
 You may also write to us for additional support at support@enablex.io.   
+
