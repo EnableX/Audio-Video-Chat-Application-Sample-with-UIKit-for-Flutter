@@ -44,7 +44,7 @@ An Application Server is required for your Flutter web/mobile App to communicate
 Note the following:
 •	You need to use App ID and App Key to run this Service.
 •	Your Flutter Client EndPoint needs to connect to this Service to create Virtual Room and Create Token to join the session.
-•	Application Server is created using [EnableX Server API] (https://www.enablex.io/developer/video-api/server-api) while Rest API Service helps in provisioning, session access and post-session reporting.
+•	Application Server is created using [EnableX Server API] (https://developer.enablex.io/docs/references/apis/video-api/index/) while Rest API Service helps in provisioning, session access and post-session reporting.
 
 If you would like to test the quality of EnableX video call before setting up your own application server, you can run the test on our pre-configured environment. Refer to point 2 for more details on this.
 
@@ -151,7 +151,7 @@ setting.createTopOption(TopOption.menu);
 
 
 # For more check this below document
-* Documentation: https://www.enablex.io/developer/video/solutions/video-ui-kit/flutter-video-ui-kit/
+* Documentation: https://developer.enablex.io/docs/guides/ui-kit-guide/flutter-ui-kit-guide/index/
 * Download: https://pub.dev/packages/enx_uikit_flutter
 
 
