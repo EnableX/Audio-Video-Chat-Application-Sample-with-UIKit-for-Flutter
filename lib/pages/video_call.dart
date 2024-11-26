@@ -19,9 +19,9 @@ class VideoCall extends StatelessWidget{
     var setting = EnxSetting.instance;
 
     Set<EnxRequiredEventsOption> enxRequired= <EnxRequiredEventsOption>{};
-    enxRequired.addAll([EnxRequiredEventsOption.audio,EnxRequiredEventsOption.video,EnxRequiredEventsOption.cameraSwitch,EnxRequiredEventsOption.audioSwitch,EnxRequiredEventsOption.groupChat,EnxRequiredEventsOption.disconnect]);
+    enxRequired.addAll([EnxRequiredEventsOption.audio,EnxRequiredEventsOption.video,EnxRequiredEventsOption.cameraSwitch,EnxRequiredEventsOption.audioSwitch,EnxRequiredEventsOption.annotation,EnxRequiredEventsOption.disconnect]);
     setting.configureRequiredEventList(enxRequired);
-    setting.isPreScreening(false);
+    setting.isPreScreening(true);
 
     return Scaffold(
 
@@ -61,7 +61,9 @@ class VideoCall extends StatelessWidget{
               fontSize: 16.0);
         }, onUserDataReceived: (Map<dynamic, dynamic> map) {
 
-        }, embedUrl: '',
+        }, embedUrl: '', connectToRoom: (Map<dynamic, dynamic> map) {
+
+        },
         ),
       ),
     );

@@ -75,8 +75,8 @@ const String urlBase =  'https://demo.enablex.io/';
 /* To try the app with Enablex hosted service you need to set the kTry = true */
 const bool kTry = true;
 /*Use enablec portal to create your app and get these following credentials*/
- const String kAppId = "app-id";
-const  String kAppkey = "app-key";
+ const String kAppId = "App-id";
+const  String kAppkey = "App-key";
 
 const createRoom = 'createRoom';
 const createToken = 'createToken';
