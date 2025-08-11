@@ -59,11 +59,14 @@ class VideoCall extends StatelessWidget{
               backgroundColor: Colors.red,
               textColor: Colors.white,
               fontSize: 16.0);
-        }, onUserDataReceived: (Map<dynamic, dynamic> map) {
-
-        }, embedUrl: '', connectToRoom: (Map<dynamic, dynamic> map) {
+        },
+          onUserDataReceived: (Map<dynamic, dynamic> map) {
 
         },
+          embedUrl: '',
+          connectToRoom: (Map<dynamic, dynamic> map) {
+
+        }, onCaptureView: (String base64bitmap) {  },
         ),
       ),
     );
