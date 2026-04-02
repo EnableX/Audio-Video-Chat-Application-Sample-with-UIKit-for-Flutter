@@ -37,8 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   connectivity_plus: ^6.1.4
   http: ^1.1.0
-  fluttertoast: ^8.2.2
-  enx_uikit_flutter: ^2.0.5
+  fluttertoast: ^9.0.0
+  enx_uikit_flutter: ^2.0.9
   #flutter_foreground_task: ^8.13.0
   get: ^4.6.6
 dev_dependencies:

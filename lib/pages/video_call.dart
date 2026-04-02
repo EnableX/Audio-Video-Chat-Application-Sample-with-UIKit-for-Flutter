@@ -19,7 +19,7 @@ class VideoCall extends StatelessWidget{
     var setting = EnxSetting.instance;
 
     Set<EnxRequiredEventsOption> enxRequired= <EnxRequiredEventsOption>{};
-    enxRequired.addAll([EnxRequiredEventsOption.audio,EnxRequiredEventsOption.video,EnxRequiredEventsOption.cameraSwitch,EnxRequiredEventsOption.audioSwitch,EnxRequiredEventsOption.annotation,EnxRequiredEventsOption.disconnect]);
+    enxRequired.addAll([EnxRequiredEventsOption.audio,EnxRequiredEventsOption.video,EnxRequiredEventsOption.cameraSwitch,EnxRequiredEventsOption.audioSwitch,EnxRequiredEventsOption.disconnect]);
     setting.configureRequiredEventList(enxRequired);
     setting.isPreScreening(true);
 
